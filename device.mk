@@ -31,6 +31,9 @@ PRODUCT_VENDOR_PROPERTIES := \
 	ro.surface_flinger.use_smart_90_for_video=true \
 	ro.surface_flinger.wcg_composition_dataspace=143261696
 
+# Game Dashboard
+ENABLE_GAMETOOLS := true
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
