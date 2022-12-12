@@ -19,6 +19,12 @@ include device/motorola/sm4350-common/PlatformConfig.mk
 # Bootloader Name
 TARGET_BOOTLOADER_BOARD_NAME := rhodei
 
+# ART
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
 # Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     sm5602_fg_mmi.ko \

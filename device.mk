@@ -32,6 +32,12 @@ PRODUCT_VENDOR_PROPERTIES := \
 	ro.surface_flinger.wcg_composition_dataspace=143261696 \
 	zygote.critical_window.minute=10
 
+# Dex/ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
+
 # Game Dashboard
 ENABLE_GAMETOOLS := true
 
