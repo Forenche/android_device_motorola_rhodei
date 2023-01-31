@@ -32,8 +32,14 @@ PRODUCT_PROPERTY_OVERRIDES := \
 
 # Vendor props
 PRODUCT_VENDOR_PROPERTIES += \
+# Zygote
 	zygote.critical_window.minute=10 \
-	DEVICE_PROVISIONED=1
+# Needed for some works apps to work, like TCS
+	DEVICE_PROVISIONED=1 \
+# Surfaceflinger offsets
+	ro.surface_flinger.set_idle_timer_ms=250 \
+	ro.surface_flinger.set_touch_timer_ms=200 \
+	ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Radio props from stock
 PRODUCT_VENDOR_PROPERTIES += \
