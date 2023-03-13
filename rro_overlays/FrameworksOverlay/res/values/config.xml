@@ -45,4 +45,7 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">motorola/rhodei_g/rhodei:11/S2SSI32.18-12-4/ed3325:user/release-keys</string>
 
+    <!-- the number of the max cached processes in the system. -->
+    <integer name="config_customizedMaxCachedProcesses">64</integer>
+
 </resources>
