@@ -23,6 +23,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=420
 
+PRODUCT_VENDOR_PROPERTIES := \
+	ro.surface_flinger.set_idle_timer_ms=250 \
+	ro.surface_flinger.set_touch_timer_ms=200 \
+	ro.surface_flinger.use_color_management=true \
+	ro.surface_flinger.use_content_detection_for_refresh_rate=true \
+	ro.surface_flinger.use_smart_90_for_video=true \
+	ro.surface_flinger.wcg_composition_dataspace=143261696
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
