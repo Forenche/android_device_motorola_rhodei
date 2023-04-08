@@ -42,6 +42,9 @@
     <!-- The padding of the rounded corners -->
     <dimen name="rounded_corner_content_padding">9dp</dimen>
 
+    <!-- Whether or not wcg mode should be enabled on this device -->
+    <bool name="config_enableWcgMode">true</bool>
+
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">motorola/rhodei_g/rhodei:11/S2SSI32.18-12-4/ed3325:user/release-keys</string>
 
