@@ -31,7 +31,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 	ro.surface_flinger.use_content_detection_for_refresh_rate=true \
 	ro.surface_flinger.use_smart_90_for_video=true \
 	ro.surface_flinger.wcg_composition_dataspace=143261696 \
-	zygote.critical_window.minute=10
+	zygote.critical_window.minute=10 \
+	DEVICE_PROVISIONED=1
 
 # Radio props from stock
 PRODUCT_VENDOR_PROPERTIES += \
