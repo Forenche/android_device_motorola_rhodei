@@ -48,14 +48,6 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">motorola/rhodei_g/rhodei:11/S2SSI32.18-12-4/ed3325:user/release-keys</string>
 
-    <!-- Build properties from a GMS certified device against current platform SPL level -->
-    <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>cheetah</item>   <!-- Build.DEVICE -->
-        <item>cheetah</item>   <!-- Build.PRODUCT -->
-        <item>Pixel 7 Pro</item> <!-- Build.MODEL -->
-        <item>google/cheetah/cheetah:13/TQ2A.230305.008.C1/9619669:user/release-keys</item> <!-- Build.FINGERPRINT -->
-    </string-array>
-
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 
