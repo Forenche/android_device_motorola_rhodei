@@ -21,7 +21,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # System Properties
-PRODUCT_SYSTEM_PROPERTIES := \
+PRODUCT_SYSTEM_PROPERTIES += \
 # Radio VoNR Calling
 	persist.radio.is_vonr_enabled_0=true \
 	persist.radio.is_vonr_enabled_1=true
