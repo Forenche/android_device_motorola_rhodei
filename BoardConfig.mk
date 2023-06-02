@@ -25,6 +25,10 @@ ART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
+
 # Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     sm5602_fg_mmi.ko \

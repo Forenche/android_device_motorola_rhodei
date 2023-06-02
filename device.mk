@@ -20,41 +20,9 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# System Properties
-PRODUCT_SYSTEM_PROPERTIES += \
-# Radio VoNR Calling
-	persist.radio.is_vonr_enabled_0=true \
-	persist.radio.is_vonr_enabled_1=true
-
 # Pixel density
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=420
-
-# Vendor props
-PRODUCT_VENDOR_PROPERTIES += \
-# Zygote
-	zygote.critical_window.minute=10 \
-# Needed for some works apps to work, like TCS
-	DEVICE_PROVISIONED=1 \
-# Surfaceflinger offsets
-	ro.surface_flinger.set_idle_timer_ms=250 \
-	ro.surface_flinger.set_touch_timer_ms=200 \
-	ro.surface_flinger.use_content_detection_for_refresh_rate=true \
-	ro.surface_flinger.use_color_management=true \
-	ro.surface_flinger.wcg_composition_dataspace=143261696 \
-	ro.surface_flinger.protected_contents=true \
-	ro.surface_flinger.use_content_detection_for_refresh_rate=true \
-	ro.surface_flinger.set_touch_timer_ms=200 \
-	ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-	ro.surface_flinger.max_virtual_display_dimension=4096
-
-# Radio props from stock
-PRODUCT_VENDOR_PROPERTIES += \
-	persist.vendor.radio.force_get_pref=1 \
-	persist.vendor.radio.dfr_mode_set=1 \
-	persist.vendor.radio.custom_ecc=1 \
-	persist.radio.multisim.config=dsds \
-	persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Dex/ART optimization
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
