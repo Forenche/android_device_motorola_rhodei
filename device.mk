@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Device path
-DEVICE_PATH := device/motorola/rhodei/rootdir
+DEVICE_PATH := device/motorola/rhodei
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
