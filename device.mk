@@ -56,9 +56,6 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 USE_DEX2OAT_DEBUG := false
 
-# Brightness
-SOONG_CONFIG_qtidisplay_brightness := true
-
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.qcom.vendor_ramdisk \
