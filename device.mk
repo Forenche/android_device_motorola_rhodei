@@ -48,10 +48,8 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 USE_DEX2OAT_DEBUG := false
 
-# Device Init
-PRODUCT_PACKAGES += \
-    fstab.qcom.vendor_ramdisk \
-    fstab.qcom
+# Device characteristics
+DEVICE_CHARACTERISTICS += hfr
 
 # Fingerprint
 TARGET_USES_EGISTEC_FINGERPRINT := true
