@@ -32,15 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # Vendor props
 PRODUCT_VENDOR_PROPERTIES += \
 	zygote.critical_window.minute=10 \
-	DEVICE_PROVISIONED=1 \
-	ro.surface_flinger.set_idle_timer_ms=250 \
-	ro.surface_flinger.use_color_management=true \
-	ro.surface_flinger.wcg_composition_dataspace=143261696 \
-	ro.surface_flinger.protected_contents=true \
-	ro.surface_flinger.use_content_detection_for_refresh_rate=true \
-	ro.surface_flinger.set_touch_timer_ms=200 \
-	ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-	ro.surface_flinger.max_virtual_display_dimension=4096
+	DEVICE_PROVISIONED=1
 
 # Radio props from stock
 PRODUCT_VENDOR_PROPERTIES += \
