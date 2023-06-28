@@ -51,6 +51,9 @@ USE_DEX2OAT_DEBUG := false
 # Device characteristics
 DEVICE_CHARACTERISTICS += hfr
 
+# Brightness
+SOONG_CONFIG_qtidisplay_brightness := true
+
 # Fingerprint
 TARGET_USES_EGISTEC_FINGERPRINT := true
 TARGET_USES_FOCAL_FINGERPRINT := true
