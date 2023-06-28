@@ -85,5 +85,4 @@ BOARD_MOT_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system_ext \
     system \
     product \
-    vendor \
-    vendor_dlkm
+    vendor
