@@ -20,11 +20,6 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# System Properties
-PRODUCT_SYSTEM_PROPERTIES += \
-	persist.radio.is_vonr_enabled_0=true \
-	persist.radio.is_vonr_enabled_1=true
-
 # Pixel density
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=420
